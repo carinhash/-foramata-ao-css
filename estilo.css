@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: black; */
+    background-image: url(https://cdn.pixabay.com/photo/2022/06/01/04/00/background-7234758_1280.png); 
+    background-color: #DDA0DD;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    animation: mudarcores 10s infinite;
+}
+img{
+    height: 440px;
+    margin-left: 230px;
+    margin-right: 230px;
+    
+}
+main{
+/* {border: palevioletred 4px solid; */
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+    background-color:rgba(0, 0, 0, 0.296);
+    border-radius: 15px 
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #DDA0DD;
+    font-weight:lighter;
+    font-style: italic;
+    font-stretch: extra-expanded;
+    line-height: 40px;
+    /* letter-spacing: 15px; */
+word-spacing: 3px;
+text-align: justify;
+/* text-decoration: overline dashed rgb(255, 205, 205); */
+text-transform:
+text-indent: 20px;
+/* text-shadow: 5px 5px 10px pink; */
+}
+
+
+h1{margin:50px;
+color: rgb(13, 12, 12);
+font-size: 40px;
+font-style: normal;
+text-align: center;
+/* text-decoration: underline dashed pink; */
+
+
+
+
+}
+/* @keyframes mudarcores{ */
+0% {
+    background-color: #DDA0DD;
+}
+20% {
+    background-color: #DA70D6;
+}
+40%{
+    background-color: #BA55D3;
+}
+60%{
+    background-color: #FF69B4;
+}
+80%{
+    background-color: #9932CC;
+}
+100%{
+    background-color:#DDA0DD ;
+}
+
+}
+
+footer{
+    text-align: center;
+}
